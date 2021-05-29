@@ -56,7 +56,7 @@ public class CalcGUI extends JFrame {
                 message += res;
             }
             else if (mns.isSelected()){
-                res = x + y;
+                res = x - y;
                 message += res;
             }
             else if (mlt.isSelected()){
